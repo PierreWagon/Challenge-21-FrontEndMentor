@@ -296,3 +296,10 @@ footer img {
         width: 80%;
     }
 }
+
+@media screen and (max-width: 380px) {
+    .header-wrapper {
+        background:linear-gradient(rgba(255,255,255,0) 70%, rgba(255,255,255,1) 100%), url('images/bg-header-mobile.png');
+        background-repeat: no-repeat;
+    }
+}
